@@ -1,0 +1,11 @@
+.report-validity progress {
+  margin-bottom: 8px;
+}
+
+.report-validity h5 {
+  margin: 0;
+}
+
+.more-than-30 {
+  color: orange;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;400;700&family=Share+Tech+Mono&display=swap');
+
+body {
+  margin: 0;
+
+  color: #E6ECF0;
+
+  font-family: 'Alegreya Sans SC', sans-serif;
+  line-height: 1rem;
+
+  background: #27353F;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ReactModal__Content {
+  inset: 25% !important;
+
+  background-color: #364958 !important;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 600ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}

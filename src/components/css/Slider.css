@@ -1,0 +1,10 @@
+.slider form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slider input {
+  margin-bottom: 24px;
+}

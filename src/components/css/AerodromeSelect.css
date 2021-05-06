@@ -1,0 +1,71 @@
+.select-holder {
+  position: absolute;
+  left: 0px;
+  display: flex;
+}
+
+.select-expansion-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  overflow: hidden;
+
+  padding: 8px;
+
+  background: #27353F;
+
+  transition-property: width, padding;
+  transition-duration: 500ms;
+}
+
+.contracted {
+  width: 0% !important;
+  padding: 0 !important;
+}
+
+.select-toggler {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+
+  background: #27353F;
+}
+
+.curved-corner-right {
+  border-radius: 0 4px 4px 0;
+}
+
+.point-right {
+  transform: rotate(0deg);
+
+  transition-property: transform;
+  transition-duration: 200ms;
+}
+
+.point-left {
+  transform: rotate(180deg);
+
+  transition-property: transform;
+  transition-duration: 200ms;
+}
+
+.fa-chevron-square-right {
+  padding-left: 0;
+
+  color: #364958;
+
+  transition-property: padding-left, color;
+  transition-duration: 200ms;
+}
+
+.fa-chevron-square-right:hover {
+  cursor: pointer;
+  padding-left: 2px;
+
+  color: #6FAE90;
+
+  transition-property: padding-left, color;
+  transition-duration: 200ms;
+}

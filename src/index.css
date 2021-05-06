@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import './components/css/App.css';
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import './components/css/AerodromeSelect.css';
+@import './components/css/CardsList.css';
+@import './components/css/Clock.css';
+@import './components/css/NavBar.css';
+@import './components/css/ReportValidityMeter.css';
+@import './components/css/Slider.css';
+@import './components/css/Socials.css';
+@import './components/css/Spinner.css';
+@import './components/css/Wind.css';
+@import './components/css/WXCard.css';
+@import './components/css/WXCardHeader.css';

@@ -1,0 +1,4 @@
+.cards-list {
+  height: calc(100vh - 72px - 96px);
+  width: 100vw;
+}

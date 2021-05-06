@@ -1,0 +1,8 @@
+.wx-card-header {
+  padding-left: 32px;
+  border-bottom: 2px solid #27353F;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

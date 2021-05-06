@@ -1,0 +1,13 @@
+.wind-vector, .wind-dial {
+  height: 160px;
+  position: absolute;
+}
+
+.wind {
+  position: relative;
+
+  margin-top: 8px;
+  border-radius: 4px;
+  width: 160px;
+  background: #27353F;
+}
