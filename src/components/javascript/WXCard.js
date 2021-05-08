@@ -11,7 +11,7 @@ import WXCardHeader from './WXCardHeader';
 
 class WXCard extends React.Component {
 
-  state = { selectedAerodrome: '', report: {}, errorMessage: '' }
+  state = { size: this.props.size, selectedAerodrome: '', report: {}, errorMessage: '' }
 
   fetchWXReports = async aerodrome => {
     // Call API to retrieve METAR data for the given aerodrome
@@ -51,7 +51,7 @@ class WXCard extends React.Component {
 
   render = () => {
     return (
-      <div className="card">
+      <div className={`card card-${this.state.size}`}>
         <AerodromeSelect onChange={this.fetchWXReports} />
         {this.renderContent()}
       </div>
