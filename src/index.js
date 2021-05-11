@@ -10,6 +10,7 @@ import App from './components/javascript/App';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/pro-regular-svg-icons';
-library.add(fab, far);
+import { fas } from '@fortawesome/pro-solid-svg-icons';
+library.add(fab, far, fas);
 
 ReactDOM.render(<App />, document.getElementById('root'));

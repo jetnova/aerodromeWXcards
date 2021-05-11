@@ -1,6 +1,6 @@
 .card {
-  height: 50%;
-  width: 560px;
+  width: 90%;
+  height: 95%;
 
   background: #364958;
 
@@ -14,3 +14,19 @@
   justify-self: center;
   align-self: center;
 }
+
+/* .card-sml, .card-med {
+  width: 45%;
+}
+
+.card-med, .card-lrg, .card-sml {
+  height: 95%;
+} */
+
+/* .card-sml {
+  height: 50%;
+} */
+/*
+.card-lrg {
+  width: 90%;
+} */

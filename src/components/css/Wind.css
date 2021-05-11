@@ -1,4 +1,4 @@
-.wind-vector, .wind-dial {
+.wind-vector, .wind-dial, .wind-mean-direction {
   height: 160px;
   position: absolute;
 }
@@ -10,4 +10,14 @@
   border-radius: 4px;
   width: 160px;
   background: #27353F;
+}
+
+.mean-speed {
+  position: absolute;
+  left: 45%;
+  top: 55px;
+}
+
+.wind-mean-direction {
+  filter: opacity(0.5);
 }
